@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link rel="stylesheet" href="../Css/MAin.css">
+</head>
+
+<body>
+    <main class="cart-page">
+        <section class="cart-container">
+            <h1>Your Shopping Cart</h1>
+
+            <div class="cart-content">
+                <div class="cart-items">
+                    <article class="cart-item">
+                        <div class="cart-item-info">
+                            <h2 class="cart-item-name">Sample Product 1</h2>
+                            <p class="cart-item-desc">Short description of the product goes here.</p>
+                            <p class="cart-item-price">$49.99</p>
+                        </div>
+                        <div class="cart-item-actions">
+                            <label>
+                                Qty:
+                                <input type="number" min="1" value="1">
+                            </label>
+                            <button class="cart-item-remove">Remove</button>
+                        </div>
+                    </article>
+
+                    <article class="cart-item">
+                        <div class="cart-item-info">
+                            <h2 class="cart-item-name">Sample Product 2</h2>
+                            <p class="cart-item-desc">Another product description for demo purposes.</p>
+                            <p class="cart-item-price">$69.99</p>
+                        </div>
+                        <div class="cart-item-actions">
+                            <label>
+                                Qty:
+                                <input type="number" min="1" value="2">
+                            </label>
+                            <button class="cart-item-remove">Remove</button>
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="cart-summary">
+                    <h2>Order Summary</h2>
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span>$189.97</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span>$10.00</span>
+                    </div>
+                    <div class="summary-row summary-total">
+                        <span>Total</span>
+                        <span>$199.97</span>
+                    </div>
+                    <button class="cart-checkout-btn">Proceed to Checkout</button>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
